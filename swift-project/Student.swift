@@ -24,4 +24,8 @@ class Student {
         
         return currentYear - self.yob
     }
+    
+    func getFullName() -> String {
+        return "\(self.fName) \(self.lName)"
+    }
 }

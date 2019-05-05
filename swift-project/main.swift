@@ -11,3 +11,7 @@ import Foundation
 
 print("Hello, World!")
 
+let s1 = Student(firstName: "Alex", lastName: "Smith", yearofBirth: 1999)
+
+print(s1.getAge())
+
